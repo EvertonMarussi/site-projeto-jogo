@@ -58,6 +58,13 @@ export default {
   background-color: #000;
 }
 
+body {
+  cursor: url('@/assets/espada.png') 16 16, auto;
+}
 
+
+a:hover, button:hover {
+  cursor: url('@/assets/espada-acesa.png'), pointer;
+}
 
 </style>
