@@ -57,4 +57,7 @@ export default {
   overflow: hidden;
   background-color: #000;
 }
+
+
+
 </style>
