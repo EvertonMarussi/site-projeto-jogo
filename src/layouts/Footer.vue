@@ -27,14 +27,14 @@
             <span class="material-symbols-outlined">call</span>
             <div class="contact-info">
               <p class="label">Telefone / WhatsApp</p>
-              <p class="value">+55 (11) 99999-9999</p>
+              <p class="value">+55 (11) 95363-2306</p>
             </div>
           </div>
           <div class="contact-item">
             <span class="material-symbols-outlined">mail</span>
             <div class="contact-info">
               <p class="label">E-mail</p>
-              <p class="value">contato@grupo7.com.br</p>
+              <p class="value">evertonmarussi@gmail.com</p>
             </div>
           </div>
         </div>
@@ -82,7 +82,7 @@ export default {
 <style scoped>
 /* Estilização Geral */
 .footer-fintech {
-  background-color: #0f172a;
+  background-color: #080808;
   color: #f1f5f9;
   padding: 80px 0 0 0;
   border-top: 1px solid rgba(255, 255, 255, 0.05);
@@ -195,7 +195,7 @@ export default {
 
 .contact-info .label {
   font-size: 11px;
-  color: #64748b;
+  color: #a1a7af;
   text-transform: uppercase;
   margin: 0;
 }

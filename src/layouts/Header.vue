@@ -3,7 +3,7 @@
     <header class="glass-header poppins-regular">
       <div class="container">
         <div class="logo-area" @click="redirect('Home')">
-          <span class="poppins-bold">GRUPO <span class="accent">7</span></span>
+          <span class="poppins-bold" >S<span class="accent">K</span></span>
         </div>
 
         <nav class="desktop-nav">
@@ -40,7 +40,7 @@
           </nav>
 
           <div class="sidebar-footer">
-            <p class="poppins-regular">© 2024 Grupo 7 - Storytelling</p>
+            <p class="poppins-regular">© 2026 Shadow Knight - Storytelling</p>
           </div>
         </div>
         <div class="backdrop" @click="toggleMenu"></div>
@@ -217,6 +217,7 @@ export default {
   display: flex;
   flex-direction: column;
   gap: 25px;
+  cursor: pointer;
 }
 
 .sidebar-nav a {
@@ -227,6 +228,11 @@ export default {
   justify-content: space-between;
   align-items: center;
   transition: transform 0.2s ease;
+}
+
+.sidebar-nav a:hover {
+  transform: scale(0.98);
+  color: #39ff14;
 }
 
 .sidebar-nav a:active {
